@@ -25,10 +25,10 @@ sidebar:
     # gitlab:
     # bitbucket:
     # twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+    # codewars:
+    # goodreads: # Number-Username, e.g. 123456-alandoe
+    # pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
       title: Languages
@@ -53,80 +53,86 @@ sidebar:
           link:
 
 career-profile:
-    title: Career Profile
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+    title: DevOps & Cloud Engineer
+    # summary: |
+    #   Summarise your career here lorem ipsum dolor sit amet, consectetuer
+    #   adipiscing elit. You can [download this free resume/CV template here]().
+    #   Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+    #   penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+    #   Donec quam felis, ultricies nec, pellentesque eu.
+    #   Second paragraph if required.
+
 education:
     title: Education
     info:
       - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+        university: Supinfo
+        time: 2007 - 2010
+        # details: |
+
+      - degree: BTS Informatique de Gestion
+        university: Lycée Le Rebours, Paris
+        time: 2005 - 2007
+        # details: |
 
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Senior DevOps Engineer
+        time: Jan 2024 - March 2024
+        company: Ryte AI, Paris
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          Ryte aims to bring health care services and AI together for an optimal user experience.
+          Part of the architecture team I was helping Ryte building their Cloud Infrastructure on GCP and Azure.
+            - Automate GCP project creation
+              - Terraform modules
+              - Github Action / Azure Pipelines
+            - Serverless
+              - Azure Functions
+              - Cloud Function
+      - role: DevOps Engineer
+        time: May 2023 - Dec 2023
+        company: Engie, La Défense
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          Part of the IaC team in the GEM department. I was working on modernising and maintaining IaC code (Ansible, PowerShell and Bicep).
+          - Maintain IaC Code
+            - Ansible Roles
+            - AWX Job Templates
+            - PowerShell Cmdlets
+          - Development
+            - Azure Function App (API) Python, Powershell - Assistance to Developers and Ops
+            - Migration project using Terraform
+            - IaC Support
+            - Design Virtual Machine Scale Set post-deployment architecture
+          - Community
+            - Learning Sessions
+      - role: DevOps Engineer
+        time: Jan 2020 - Nov 2021
+        company: TF1, Boulogne-Billancourt
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          I participated in a modernization project - Transform to Cloud - that consisted in the migration of 80 applications in 2020 and 2021 on both Cloud providers AWS and Azure.
+          - Assistance to Ops teams regarding migration “Transform to Cloud”
+            - Terraform stacks
+            - CI/CD Pipelines
+            - DevOps Coaching and Community
+          - Daily work with an off-shore (India) Terraform developer team
+            - Specs definitions
+            - Agile ceremonies
+            - Terraform module validation
+            - Building Blocks
+          - Automation
+            - Linux and Windows images creation for Azure using Packer + Azure
+            DevOps
+            - Automate Azure DevOps US creation from ServiceNow (Python script
+            and Azure Functions)
+          - Work on Azure environment bootstrap project
+            - Trigger of the environments generation with Azure Functions and Python script
+            - Work on the first draft of the "Skeleton"
+
+      - role: DevOps Engineer & SRE
+        time: Jan 2020 - Nov 2021
+        company: Renault Digital, Boulogne-Billancourt
+        details: |
 
 certifications:
       title: Certifications
@@ -141,33 +147,12 @@ certifications:
           # details: |
           #   Details about cert. Lorem ipsum dolor sit amet, consectetur
           #   adipiscing elit.
-          #   Nullam eget orci purus. Nullam ultrices neque nibh.
-          #   Aenean fermentum, felis vulputate suscipit accumsan,
-          #   sem enim bibendum augue, sed convallis arcu lacus at dui.
-          #   Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-          #   Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-          #   Praesent venenatis erat non augue suscipit consectetur.
-
-          #   Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-          #   fringilla vel. Ut euismod, sem sed vulputate venenatis,
-          #   justo diam viverra velit, sed rhoncus leo leo eu justo.
-          #   Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+        - name: Certified Kubernetes Application Developer
+          organization: The Linux Foundation
+        - name: Certified Kubernetes Administrator
+          organization: The Linux Foundation
+        - name: Certified Kubernetes Security Specialist
+          organization: The Linux Foundation
 
 projects:
     title: Projects
@@ -241,23 +226,24 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Azure, AWS, GCP
+        # level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Azure Pipelines, Github Actions
+        # level: 98%
 
-      - name: Angular
-        level: 98%
+      - name: Terraform, Ansible, AWX
+        # level: 98%
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: Kubernetes
+        # level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: SCRUM
+        # level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Bash, Python, Powershell
+        # level: 60%
+      - name: Linux (Debian, RHEL)
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
