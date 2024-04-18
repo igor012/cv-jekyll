@@ -4,7 +4,7 @@
 
 sidebar:
     position: left # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -43,6 +43,12 @@ sidebar:
     interests:
       title: Interests
       info:
+        - item: Photography
+          link:
+
+        - item: Home Automation
+          link:
+
         - item: Climbing
           link:
 
@@ -53,7 +59,7 @@ sidebar:
           link:
 
 career-profile:
-    title: DevOps & Cloud Engineer
+    title: About me
     # summary: |
     #   Summarise your career here lorem ipsum dolor sit amet, consectetuer
     #   adipiscing elit. You can [download this free resume/CV template here]().
@@ -90,8 +96,11 @@ experiences:
             - Serverless
               - Azure Functions
               - Cloud Function
+
+          ⚙️ Azure, GCP, Azure DevOps, Github,Terraform, AKS, Linux, Scrum, Vertex AI, Elastic Cloud
+
       - role: DevOps Engineer
-        time: May 2023 - Dec 2023
+        time: May 2022 - Dec 2023
         company: Engie, La Défense
         details: |
           Part of the IaC team in the GEM department. I was working on modernising and maintaining IaC code (Ansible, PowerShell and Bicep).
@@ -106,6 +115,9 @@ experiences:
             - Design Virtual Machine Scale Set post-deployment architecture
           - Community
             - Learning Sessions
+
+          ⚙️ Azure, Azure DevOps, AWS, Github, Bicep, Terraform, Ansible, Windows, Linux, Scrum
+
       - role: DevOps Engineer
         time: Jan 2020 - Nov 2021
         company: TF1, Boulogne-Billancourt
@@ -129,10 +141,93 @@ experiences:
             - Trigger of the environments generation with Azure Functions and Python script
             - Work on the first draft of the "Skeleton"
 
+          ⚙️ Azure, AWS, Azure DevOps, Terraform, Ansible, Windows, Linux
+
       - role: DevOps Engineer & SRE
         time: Jan 2020 - Nov 2021
         company: Renault Digital, Boulogne-Billancourt
         details: |
+          Working with developers to address DevOps/Cloud issues on a Bigdata oriented project hosted on Google Cloud Platform. The project's goal was to unify and enrich data from factories for tracing purposes.
+          - Keep the infrastructure idempotent with Terraform
+          - Maintain CI/CD pipelines
+          - Participate to application design
+          - Ensure infrastructure compliance with Renault's guidelines
+          - Define SRE indicators (SLI & SLO)
+
+          ⚙️ DataProc Big Query - Kubernetes (GKE) - Terraform - Gitlab CI
+
+      - role: Cloud Consultant
+        time: Jan 2019 - Apr 2019
+        company: Goodwall, Lausanne (remote)
+        details: |
+          The mission objective was to help the team migrate from OVH servers to AWS. Together we designed the future architecture of the stack on AWS.
+          As the core software was already designed as microservices, we strived for ECS Fargate container hosting for simplicity and hassle-free maintenance.
+          - Analysis of existing systems
+          - Design of the target
+          - Database migration with DMS
+          - Terraform modules development
+
+          ⚙️ AWS - ECS Fargate - RDS + DMS - ElasticSearch - AWS SQS - Cloudfront - Terraform - Ansible - Gitlab CI
+
+
+      - role: System Administrator
+        time: April 2017 - June 2018
+        company: Budget Insight, Paris
+        details: |
+          In charge of the whole infrastructure. My main concern was to provide a reliable service (APIs) to our users.
+          I participated in the migration of the previous infrastructure to a PSD2 compliant one.
+          - Maintain optimal operational condition
+          - Infrastructure setup
+            - gitlab & gitlab-ci
+            - Zabbix
+            - FreeIPA (ldap)
+            - Matrix Synapse (chat)
+            - VmWare VSphere + NSX (Private Cloud OVH)
+
+          ⚙️ Ansible playbooks developmentDebian, CentOS - VMware VSphere (NSX), KVM – Ansible - Gitlab CI - AWS Cloud HSM
+
+
+      - role: System Ops
+        time: June 2016 - April 2017
+        company: Hermès, Pantin
+        details: |
+          As part of the Operation team
+          - Participated in migrating the monitoring system to a SaaS-based solution
+          - Maintained systems in operational state
+
+          ⚙️ Ansible – CentOS - VMware VSphere – Nagios - Scripting (bash and python)
+
+      - role: System Administrator
+        time: January 2012 - May 2016
+        company: Mikros Image, Levallois-Perret
+        details: |
+          Management of the IT infrastructure (maintenance, evolution). The whole infrastructure (France, Canada, Belgium) was about 100 servers & 600 workstations/renders, most of them running Linux.
+          - Maintain optimal operational condition
+          - Puppet modules development
+          - Foreman software set up
+          - Design of the Linux images
+          - User Support
+
+          ⚙️ RHEL/CentOS, Windows, puppet/foreman, oVirt, KVM, ZenOSS, openLDAP, gitlab
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Azure, AWS, GCP
+        # level: 98%
+      - name: Azure Pipelines, Github Actions
+        # level: 98%
+      - name: Terraform, Ansible, AWX
+        # level: 98%
+      - name: Kubernetes
+        # level: 95%
+      - name: SCRUM
+        # level: 85%
+      - name: Bash, Python, Powershell
+        # level: 60%
+      - name: Linux (Debian, RHEL)
+        # level: 95%
 
 certifications:
       title: Certifications
@@ -145,8 +240,6 @@ certifications:
           # credentialurl: www.google.com
           # credentialname: Google
           # details: |
-          #   Details about cert. Lorem ipsum dolor sit amet, consectetur
-          #   adipiscing elit.
         - name: Certified Kubernetes Application Developer
           organization: The Linux Foundation
         - name: Certified Kubernetes Administrator
@@ -154,96 +247,42 @@ certifications:
         - name: Certified Kubernetes Security Specialist
           organization: The Linux Foundation
 
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+# projects:
+#     title: Projects
+#     intro: >
+#       You can list your side projects in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     assignments:
+#       - title: Velocity
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+# oss:
+#     title: OSS Contributions
+#     intro: >
+#       You can list your open source software contributions in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     contributions:
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
+#     papers:
+#       - title: The Art of Computer Programming
+#         link: "#"
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
-
-skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Azure, AWS, GCP
-        # level: 98%
-
-      - name: Azure Pipelines, Github Actions
-        # level: 98%
-
-      - name: Terraform, Ansible, AWX
-        # level: 98%
-
-      - name: Kubernetes
-        # level: 95%
-
-      - name: SCRUM
-        # level: 85%
-
-      - name: Bash, Python, Powershell
-        # level: 60%
-      - name: Linux (Debian, RHEL)
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
