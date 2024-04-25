@@ -43,30 +43,29 @@ sidebar:
     interests:
       title: Interests
       info:
-        - item: Photography
-          link:
-
         - item: Home Automation
           link:
-
-        - item: Climbing
-          link:
-
-        - item: Skiing
-          link:
-
         - item: 3D Printing
           link:
+        - item: Climbing
+          link:
+        - item: Skiing
+          link:
+        - item: Photography
+          link: https://flickr.com/photos/username
 
 career-profile:
     title: About me
-    # summary: |
-    #   Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    #   adipiscing elit. You can [download this free resume/CV template here]().
-    #   Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    #   penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    #   Donec quam felis, ultricies nec, pellentesque eu.
-    #   Second paragraph if required.
+    summary: |
+      Ever since I started working I have always been trying to evolve and improve myself whether it is professionally or at a personal level.
+
+      My main focus are:
+        - Cloud technologies
+        - Linux & FOSS, DevOps.
+        - Automation
+        - Infrastructure as Code
+        - CI/CD
+        - Containers & Orchestration
 
 education:
     title: Education
