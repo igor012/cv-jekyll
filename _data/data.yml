@@ -85,6 +85,24 @@ experiences:
     title: Experiences
     info:
       - role: Senior DevOps Engineer
+        time: Jun 2024 - Present
+        company: Pass Culture, Paris
+        details: |
+          The Pass Culture is a French initiative that provides young people aged 15 to 18 with a sum of money to finance cultural activities.
+          Part of the infrastructure team, I am helping the different teams deploying their workload on GCP and k8s.
+          I am also in charge of maintaining the infrastructure and ensuring its compliance with the French government's guidelines.
+            - Automate GCP resources creation
+              - Terraform modules
+              - Github Action
+            - Compliance monitoring
+              - Google Workflows
+              - Open Policy Agent
+            - Monitoring
+              - Grafana/Prometheus
+
+          ⚙️ GCP, Github, Terraform/Terragrunt, GKE, Linux, Grafana/Prometheus
+
+      - role: Senior DevOps Engineer
         time: Jan 2024 - March 2024
         company: Ryte AI, Paris
         details: |
@@ -97,7 +115,7 @@ experiences:
               - Azure Functions
               - Cloud Function
 
-          ⚙️ Azure, GCP, Azure DevOps, Github,Terraform, AKS, Linux, Scrum, Vertex AI, Elastic Cloud
+          ⚙️ Azure, GCP, Azure DevOps, Github, Terraform, AKS, Linux, Scrum, Vertex AI, Elastic Cloud
 
       - role: DevOps Engineer
         time: May 2022 - Dec 2023
